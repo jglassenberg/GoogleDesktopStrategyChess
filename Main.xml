@@ -1,0 +1,27 @@
+<view caption="STRATEGO" height="225" resizable="false" width="190"
+  onopen="view_onOpen()">
+    <img height="220" width="190" src="board_images\background.gif"/>
+    <contentarea height="197" name="boardArea" width="160" x="7" y="7"/>
+    <label height="199" name="lblScore" width="51" x="134" y="7" size="8"
+      wordwrap="true"/>
+    <label height="41" name="lblWarning" width="175" x="4" y="175" size="8"
+      wordwrap="true"/>
+    <script src="main.js" />
+    <script src="AI.js" />
+    <script src="DisplayTurn.js" />
+    <script src="ImageLoad.js" />
+    <script src="MultiPlayer.js" />
+    <script src="setupLoad.js" />
+    <script src="setupPage.js" />
+    <script src="Soldier.js" />
+    <script src="Turn.js" />
+    <script src="ScoreDisplay.js" />
+    <script src="PlayBoard.js" />
+    <script src="ContentAreaLabels.js" />
+    <script src="AttackLog.js" />
+    <script src="SetupSelect.js" />
+    <script src="BoardFlip.js" />
+    <script src="CancelHandler.js" />
+    <script src="AIDifficulty.js" />
+    <script src="FriendList.js" />
+</view>
